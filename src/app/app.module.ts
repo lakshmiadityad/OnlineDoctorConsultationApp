@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home';
 import { RegisterComponent } from './register';
-import { AlertComponent } from './alert';
+import { AlertComponent } from './_alert';
 
 @NgModule({
   declarations: [

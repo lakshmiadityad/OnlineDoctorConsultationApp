@@ -8,7 +8,7 @@ import './_content/app.less';
 
 @Component({ selector: 'app', templateUrl: 'app.component.html' })
 export class AppComponent {
-    currentUser: User;
+    currentUser!: User;
 
     constructor(
         private router: Router,
